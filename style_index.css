@@ -45,7 +45,6 @@ header {
 
 h1 {
     color:rgb(215, 215, 215);
-    /* margin-right: 40px; */
     font-size: larger;
     background-color: rgba(0, 0, 0, 0.288);
     padding: 10px;
@@ -81,8 +80,6 @@ button {
     height: 50px;
     width: 40%;
     color:rgba(255, 255, 255, 0.921);
-    /* background-color: rgb(49, 104, 255); */
-    /* box-shadow: 0px 6px 6px rgb(0 0 0 / 70%); */
     margin-top: 50px;
     background: linear-gradient(#5691ff, #216efd);
     box-shadow: 0 3px #3d527a;
@@ -153,6 +150,7 @@ article i {
 #FB {
     margin-top: 60px;
     margin-left: 20px;
+    width: 1px;
  }
 
 .foot {
@@ -226,7 +224,6 @@ footer {
 
     h1 {
         color:rgb(215, 215, 215);
-        /* margin-right: 40px; */
         font-size: larger;
         background-color: rgba(0, 0, 0, 0.288);
         padding: 10px;
@@ -241,7 +238,7 @@ footer {
         font-weight: 700;
         background-color: rgba(255, 255, 255, 0.382);
         height: 100px;
-        padding-top: 30px;
+        padding-top: 18px;
         font-size: 29px;
         box-shadow: 0px 12px 12px rgb(0 0 0 / 50%);
     }
@@ -265,8 +262,6 @@ footer {
         border-radius: 40px;
         height: 80px;
         width: 98%;
-        /* background-color: rgb(58, 120, 255);
-        box-shadow: 0px 6px 6px rgb(0 0 0 / 70%); */
         background: linear-gradient(#5691ff, #216efd);
         box-shadow: 0 3px #3d527a;
         border: 1px solid #6b9fff;
@@ -300,7 +295,7 @@ footer {
     aside i {
         color:rgb(58, 120, 255);
         margin: 10px;
-        font-size:larger;
+        font-size:xx-large;
     }
     
     aside p {
@@ -348,12 +343,13 @@ footer {
        font-size: x-large;
        margin-top: 60px;
        margin-left: 20px;
+       width: 1px;
     }
     
     .foot {
+        display: flex;
+        flex-direction:column;
         color:rgb(255, 255, 255);
-        display:flex;
-        justify-content:space-between;
         margin-top : 50px;
         padding: 10px;  
         padding-bottom: 14px; 
@@ -364,14 +360,14 @@ footer {
         background-color: rgba(43, 43, 43, 0.661);
         box-shadow: 0px 0px 30px 0px rgba(255 255 255 / 100%);
         height: auto;
+        font-size:large;
     }
     
     #webmaster {
         color: rgb(0, 0, 0);
-        font-size:small;
-        font-weight: 700;
-        margin-top: 30px; 
-        margin-right: 30px;
+        font-weight:600;
+        text-align: center;  
+        margin-top: 10px;
     }
 }
 
@@ -426,7 +422,6 @@ footer {
 
     h1 {
         color:rgb(215, 215, 215);
-        /* margin-right: 40px; */
         font-size: larger;
         background-color: rgba(0, 0, 0, 0.288);
         padding: 10px;
@@ -465,8 +460,6 @@ footer {
         border-radius: 40px;
         height: 80px;
         width: 49%;
-        /* background-color: rgb(58, 120, 255);
-        box-shadow: 0px 6px 6px rgb(0 0 0 / 70%); */
         background: linear-gradient(#5691ff, #216efd);
         box-shadow: 0 3px #3d527a;
         border: 1px solid #6b9fff;
@@ -551,6 +544,7 @@ footer {
        font-size: x-large;
        margin-top: 60px;
        margin-left: 20px;
+       width: 1px;
     }
     
     .foot {
@@ -561,7 +555,7 @@ footer {
         padding: 30px;  
         padding-bottom: 14px; 
         height: 90px;
-        font-size:large;
+        font-size:larger;
     }
     
     footer {
@@ -571,9 +565,10 @@ footer {
     }
     
     #webmaster {
-        color: rgb(0, 0, 0);
+        color: rgba(0, 0, 0, 0.700);
         font-size:medium;
         font-weight: 700;
         margin-right: 30px; 
+        margin-top: 2px;
     }
 }

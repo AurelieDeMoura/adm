@@ -1,4 +1,4 @@
-                             /* ---------------- Desktop Tarif--------------- */
+                              /* ---------------- Desktop Tarif--------------- */
                              
 
 body {
@@ -45,7 +45,6 @@ header {
 
 h1 {
     color:rgb(215, 215, 215);
-    /* margin-right: 40px; */
     font-size: larger;
     background-color: rgba(0, 0, 0, 0.288);
     padding: 10px;
@@ -98,8 +97,8 @@ aside {
 
 aside i {
     color:rgb(58, 120, 255);
-    font-weight: 900;
     margin: 10px;
+    font-size: x-large;
 }
 
 .fa-3x {
@@ -121,7 +120,6 @@ article a {
 #retour {
     width: 80px;
     border-radius: 10px;
-    /* background-color: rgb(150, 150, 150); */
     margin:10px;
     padding-left: 5px;
     background: linear-gradient(#5691ff, #216efd);
@@ -157,6 +155,7 @@ article i {
 #FB {
     margin-top: 60px;
     margin-left: 20px;
+    width: 1px;
 }
 
 .foot {
@@ -231,7 +230,6 @@ footer {
 
     h1 {
         color:rgb(215, 215, 215);
-        /* margin-right: 40px; */
         font-size: larger;
         background-color: rgba(0, 0, 0, 0.288);
         padding: 10px;
@@ -246,7 +244,7 @@ footer {
         font-weight: 700;
         background-color: rgba(255, 255, 255, 0.382);
         height: 100px;
-        padding-top: 30px;
+        padding-top: 18px;
         font-size: 29px;
         box-shadow: 0px 12px 12px rgb(0 0 0 / 50%);
     }
@@ -290,7 +288,6 @@ footer {
     
     aside i {
         color:rgb(58, 120, 255);
-        font-weight: 900;
         margin: 10px;
         font-size: xx-large;
     }
@@ -323,7 +320,6 @@ footer {
         width: 100px;
         height: 70px;
         border-radius: 40px;
-        /* background-color: rgb(152, 152, 152); */
         margin-left: -3px;
         background: linear-gradient(#5691ff, #216efd);
         box-shadow: 0 3px #3d527a;
@@ -359,12 +355,13 @@ footer {
         font-size: x-large;
         margin-top: 60px;
         margin-left: 20px;
+        width: 1px;
      }
 
      .foot {
+        display: flex;
+        flex-direction:column;
         color:rgb(255, 255, 255);
-        display:flex;
-        justify-content:space-between;
         margin-top : 50px;
         padding: 10px;  
         padding-bottom: 14px; 
@@ -375,13 +372,14 @@ footer {
         background-color: rgba(43, 43, 43, 0.661);
         box-shadow: 0px 0px 30px 0px rgba(255 255 255 / 100%);
         height: auto;
+        font-size:large;
     }
     
     #webmaster {
         color: rgb(0, 0, 0);
-        font-size:small;
-        font-weight: 700;
-        margin-top: 30px; 
+        font-weight: 600;
+        text-align: center;  
+        margin-top: 10px;
     }
 }
 
@@ -436,7 +434,6 @@ footer {
 
     h1 {
         color:rgb(215, 215, 215);
-        /* margin-right: 40px; */
         font-size: larger;
         background-color: rgba(0, 0, 0, 0.288);
         padding: 10px;
@@ -530,7 +527,6 @@ footer {
         width: 120px;
         height: 70px;
         border-radius: 40px;
-        /* background-color: rgb(152, 152, 152); */
         margin-left:-4px;
     }
 
@@ -563,6 +559,7 @@ footer {
         font-size: x-large;
         margin-top: 60px;
         margin-left: 20px;
+        width: 1px;
      }
 
      .foot {
@@ -583,9 +580,10 @@ footer {
     }
     
     #webmaster {
-        color: rgb(0, 0, 0);
+        color: rgba(0, 0, 0, 0.700);
         font-size:medium;
         font-weight: 700;
         margin-right: 30px; 
+        margin-top: 2px;
     }
 }
