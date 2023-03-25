@@ -117,6 +117,7 @@ article a {
     font-size: 30px;
 }
 
+
 #retour {
     width: 80px;
     border-radius: 10px;
@@ -125,6 +126,11 @@ article a {
     background: linear-gradient(#5691ff, #216efd);
     box-shadow: 0 3px #3d527a;
     border: 1px solid #6b9fff;
+}
+
+#retour:active {
+    box-shadow: 0 2px #ffffff;
+    transform: translateY(2px);
 }
 
 article p {
